@@ -2,9 +2,8 @@ const Page = require("./_layout/Default");
 
 module.exports = class extends Page {
     constructor(){
-        // change localhost to heroku here
-        // and the name to yours
-        super({title:"Contact", sName:"Richard Hildred", sAction:"https://dry-bayou-18746.herokuapp.com/send/"});
+      
+        super({title:"Contact", sName:"SHREY | RONAK | PALLAVI", sAction:"https://dry-bayou-18746.herokuapp.com/send/"});
     }
     render(sPage) {
         return `
